@@ -1,0 +1,17 @@
+Dataset_name: 30ch150_T100_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 10800.0449929
+
+Status: Feasible
+Nodes: 41837
+BestBound: 4364.899436858213
+BestBoundRoot: 6002.603226858535
+BestBoundRootBeforeCuts: 6807.647815515111
+FinalGap: 0.5936106012625608
+Arguments: exact CPX 180 100 2

@@ -1,0 +1,17 @@
+Dataset_name: 26ch130_T60_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,115,30,0
+Route_1: 0,15,127,2,17,1,0
+Route_2: 0,126,25,128,0
+Profit: 3236
+Time: 78.8647339
+
+Status: Feasible
+BestBound: 6503
+BestRestart: 1
+RestartTime: 3.8030088
+Iterations: 10610
+IterationsTillBest: 609
+TimeOfMath: 3.435
+Arguments: mls 60 2

@@ -1,0 +1,16 @@
+Dataset_name: 26bier127_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,66,109,103,91,88,64,65,111,117,56,1,0
+Route_1: 0,78,68,95,118,62,81,125,31,122,35,0
+Profit: 120
+Time: 416.7304631
+
+Status: Feasible
+BestBound: 126
+BestRestart: 0
+RestartTime: 20.1589176
+Iterations: 10617
+IterationsTillBest: 616
+TimeOfMath: 19.884
+Arguments: mls 80 1

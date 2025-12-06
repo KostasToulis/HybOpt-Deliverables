@@ -1,0 +1,15 @@
+Dataset_name: 16eil76_T60_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,15,0
+Route_1: 0,40,41,0
+Route_2: 0,72,1,27,0
+Profit: 34
+Time: 152.70800018310547
+
+Status: 2
+BestBound: 34
+BestBoundRoot: 44
+BestBoundRootBeforeCuts: 75
+FinalGap: 0
+Arguments: exact GRB 180 60 1

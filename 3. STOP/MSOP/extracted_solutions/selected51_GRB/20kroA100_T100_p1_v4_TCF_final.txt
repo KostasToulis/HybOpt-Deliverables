@@ -1,0 +1,17 @@
+Dataset_name: 20kroA100_T100_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,46,22,76,0
+Route_1: 0,52,18,7,0
+Route_2: 0,60,27,0
+Route_3: 0,62,9,35,0
+Profit: 57
+Time: 10800.014999866486
+
+Status: 9
+Nodes: 23680
+BestBound: 71
+BestBoundRoot: 82
+BestBoundRootBeforeCuts: 99
+FinalGap: 0.24561403508771928
+Arguments: exact GRB 180 100 1

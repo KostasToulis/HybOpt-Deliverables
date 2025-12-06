@@ -1,0 +1,15 @@
+Dataset_name: 88pr439_T100_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,225,0
+Route_1: 0,302,0
+Profit: 622
+Time: 10800.4205386
+
+Status: Feasible
+Nodes: 0
+BestBound: 22177
+BestBoundRoot: 10058
+BestBoundRootBeforeCuts: 10058
+FinalGap: 221770000000000
+Arguments: exact CPX 180 100 2

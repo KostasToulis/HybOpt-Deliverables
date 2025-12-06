@@ -1,0 +1,17 @@
+Dataset_name: 30ch150_T100_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,2,20,9,0
+Route_1: 0,25,4,106,0
+Route_2: 0,78,0
+Route_3: 0,95,34,32,91,0
+Profit: 3209
+Time: 10800.021000146866
+
+Status: 9
+Nodes: 3567
+BestBound: 5426
+BestBoundRoot: 5957
+BestBoundRootBeforeCuts: 7533
+FinalGap: 0.6908694297288875
+Arguments: exact GRB 180 100 2

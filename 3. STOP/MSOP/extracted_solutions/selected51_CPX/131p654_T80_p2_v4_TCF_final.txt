@@ -1,0 +1,17 @@
+Dataset_name: 131p654_T80_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 10801.3400179
+
+Status: Feasible
+Nodes: 0
+BestBound: 28957
+BestBoundRoot: 0
+BestBoundRootBeforeCuts: 0
+FinalGap: 289570000000000
+Arguments: exact CPX 180 80 2

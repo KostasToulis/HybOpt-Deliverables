@@ -1,0 +1,16 @@
+Dataset_name: 201pr1002_T100_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,294,0
+Route_1: 0,655,0
+Route_2: 0,914,0
+Profit: 887
+Time: 10801.6377265
+
+Status: Feasible
+Nodes: 0
+BestBound: 50583
+BestBoundRoot: 0
+BestBoundRootBeforeCuts: 0
+FinalGap: 505830000000000
+Arguments: exact CPX 180 100 2

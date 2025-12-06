@@ -1,0 +1,16 @@
+Dataset_name: 16eil76_T60_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,15,0
+Route_1: 0,40,41,0
+Route_2: 0,72,1,27,0
+Profit: 34
+Time: 1138.113916
+
+Status: Optimal
+Nodes: 37848
+BestBound: 34
+BestBoundRoot: 46.999177981889346
+BestBoundRootBeforeCuts: 53.223728356220676
+FinalGap: 0
+Arguments: exact CPX 180 60 1

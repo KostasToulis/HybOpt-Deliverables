@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SOP_Project": {
+      "commandName": "Project",
+      "workingDirectory": "./"
+
+    }
+  }
+}

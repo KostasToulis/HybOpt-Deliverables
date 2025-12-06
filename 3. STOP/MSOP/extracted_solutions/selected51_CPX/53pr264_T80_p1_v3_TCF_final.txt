@@ -1,0 +1,16 @@
+Dataset_name: 53pr264_T80_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Profit: 0
+Time: 10800.1792889
+
+Status: Feasible
+Nodes: 1564
+BestBound: 199.29250696804294
+BestBoundRoot: 242.87882558865826
+BestBoundRootBeforeCuts: 252.94055092490612
+FinalGap: 1.120133052850329
+Arguments: exact CPX 180 80 1

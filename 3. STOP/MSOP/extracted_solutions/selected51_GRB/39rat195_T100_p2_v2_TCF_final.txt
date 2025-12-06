@@ -1,0 +1,15 @@
+Dataset_name: 39rat195_T100_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,13,40,66,67,109,110,94,106,82,15,0
+Route_1: 0,28,43,44,73,87,101,75,63,49,36,23,22,7,3,1,0
+Profit: 6149
+Time: 10800.055999994278
+
+Status: 9
+Nodes: 1072
+BestBound: 9467
+BestBoundRoot: 9637
+BestBoundRootBeforeCuts: 9863
+FinalGap: 0.5395999349487721
+Arguments: exact GRB 180 100 2

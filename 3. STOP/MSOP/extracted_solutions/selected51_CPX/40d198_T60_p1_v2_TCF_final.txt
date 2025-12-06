@@ -1,0 +1,15 @@
+Dataset_name: 40d198_T60_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,4,0
+Route_1: 0,6,0
+Profit: 6
+Time: 10805.3616058
+
+Status: Feasible
+Nodes: 3135
+BestBound: 110.32794900468926
+BestBoundRoot: 137.08901156151805
+BestBoundRootBeforeCuts: 155.77411450288182
+FinalGap: 17.387991500491744
+Arguments: exact CPX 180 60 1

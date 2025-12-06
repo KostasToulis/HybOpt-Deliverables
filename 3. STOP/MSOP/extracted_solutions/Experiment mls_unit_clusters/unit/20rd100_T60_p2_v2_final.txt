@@ -1,0 +1,16 @@
+Dataset_name: 20rd100_T60_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,59,7,68,89,50,64,79,29,47,82,67,70,0
+Route_1: 0,61,86,13,11,84,81,31,3,74,20,48,12,66,96,85,62,14,0
+Profit: 1534
+Time: 58.7312106
+
+Status: Feasible
+BestBound: 5008
+BestRestart: 0
+RestartTime: 1.997362
+Iterations: 10252
+IterationsTillBest: 251
+TimeOfMath: 1.307
+Arguments: mls 60 2

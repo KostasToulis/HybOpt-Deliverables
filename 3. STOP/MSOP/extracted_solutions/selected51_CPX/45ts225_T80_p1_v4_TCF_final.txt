@@ -1,0 +1,17 @@
+Dataset_name: 45ts225_T80_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,28,158,0
+Route_1: 0,131,11,8,2,0
+Route_2: 0,134,33,128,0
+Route_3: 0,152,53,1,0
+Profit: 60
+Time: 10800.143237
+
+Status: Feasible
+Nodes: 888
+BestBound: 157.27295327852602
+BestBoundRoot: 169.15481610335542
+BestBoundRootBeforeCuts: 189.51636908142302
+FinalGap: 1.6212158879727316
+Arguments: exact CPX 180 80 1

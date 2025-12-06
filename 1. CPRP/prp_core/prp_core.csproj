@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Data\**" />
+    <Compile Remove="Data\ProductionSchedules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Data\Data\**" />
+    <EmbeddedResource Remove="Data\ProductionSchedules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Data\Data\**" />
+    <None Remove="Data\ProductionSchedules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accord" Version="3.8.0" />
+    <PackageReference Include="Accord.MachineLearning" Version="3.8.0" />
+    <PackageReference Include="Accord.Math" Version="3.8.0" />
+    <PackageReference Include="Accord.Statistics" Version="3.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Gurobi90.NET">
+      <HintPath>Gurobi90.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

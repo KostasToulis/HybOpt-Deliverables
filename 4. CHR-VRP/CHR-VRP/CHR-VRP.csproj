@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>CHR_VRP</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.0.0-preview2" />
+    <PackageReference Include="IronXL.Excel" Version="2023.8.19" />
+    <PackageReference Include="ScottPlot" Version="4.1.61" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Promises.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Gurobi100.NET">
+      <HintPath>Solvers\Gurobi100.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

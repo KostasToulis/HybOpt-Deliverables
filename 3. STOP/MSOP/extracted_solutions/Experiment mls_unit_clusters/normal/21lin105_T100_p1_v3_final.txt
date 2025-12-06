@@ -1,0 +1,17 @@
+Dataset_name: 21lin105_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,2,13,4,0
+Route_1: 0,1,103,35,15,11,0
+Route_2: 0,40,22,0
+Profit: 53
+Time: 25.9889029
+
+Status: Feasible
+BestBound: 104
+BestRestart: 0
+RestartTime: 1.2922778
+Iterations: 10005
+IterationsTillBest: 4
+TimeOfMath: 1.076
+Arguments: mls 100 1

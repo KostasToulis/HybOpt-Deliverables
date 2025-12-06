@@ -1,0 +1,16 @@
+Dataset_name: 31pr152_T100_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,2,0
+Route_1: 0,12,4,11,5,0
+Route_2: 0,33,47,34,0
+Route_3: 0,38,0
+Profit: 38
+Time: 10800.022000074387
+
+Status: 9
+BestBound: 105
+BestBoundRoot: 114
+BestBoundRootBeforeCuts: 151
+FinalGap: 1.763157894736842
+Arguments: exact GRB 180 100 1

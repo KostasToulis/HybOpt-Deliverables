@@ -1,0 +1,12 @@
+Dataset_name: 132d657_T60_p1_v4
+Vehicles: 3
+Routes
+Route_0: 0,11,24,12,0 (3365)
+Route_1: 0,3,4,0 (3131)
+Route_2: 0,10,9,7,8,2,1,0 (3317)
+Profit: 0
+Time: 1799.4207887
+
+Total distance: 9813
+Unserved customers: 21 32 33 35  (4)
+Arguments: VRP LS 30 0 0

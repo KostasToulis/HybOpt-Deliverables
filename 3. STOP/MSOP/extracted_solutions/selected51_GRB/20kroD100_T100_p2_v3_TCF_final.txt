@@ -1,0 +1,16 @@
+Dataset_name: 20kroD100_T100_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,16,89,22,73,0
+Route_1: 0,26,14,53,76,0
+Route_2: 0,75,80,49,0
+Profit: 2739
+Time: 10800.014999866486
+
+Status: 9
+Nodes: 16526
+BestBound: 4267
+BestBoundRoot: 4660
+BestBoundRootBeforeCuts: 5008
+FinalGap: 0.5578678349762687
+Arguments: exact GRB 180 100 2

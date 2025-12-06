@@ -1,0 +1,15 @@
+Dataset_name: 14st70_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,30,58,56,22,0
+Route_1: 0,52,11,59,15,0
+Profit: 43
+Time: 10800.0649247
+
+Status: Feasible
+Nodes: 54666
+BestBound: 59.26634925952732
+BestBoundRoot: 64.85145173036227
+BestBoundRootBeforeCuts: 67.2209772644027
+FinalGap: 0.37828719208115086
+Arguments: exact CPX 180 80 1

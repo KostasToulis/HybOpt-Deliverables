@@ -1,0 +1,15 @@
+Dataset_name: 217vm1084_T100_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,763,0
+Route_1: 0,974,0
+Profit: 32
+Time: 10802.3342788
+
+Status: Feasible
+Nodes: 0
+BestBound: 1083
+BestBoundRoot: 91.43453989931697
+BestBoundRootBeforeCuts: 99
+FinalGap: 10830000000000
+Arguments: exact CPX 180 100 1

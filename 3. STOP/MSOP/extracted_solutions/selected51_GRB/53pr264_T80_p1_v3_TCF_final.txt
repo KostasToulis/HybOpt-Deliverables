@@ -1,0 +1,16 @@
+Dataset_name: 53pr264_T80_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,34,28,24,23,18,73,12,11,6,81,85,89,129,104,109,61,37,0
+Route_1: 0,119,128,39,0
+Route_2: 0,126,124,56,50,47,42,41,0
+Profit: 131
+Time: 10800.044999837875
+
+Status: 9
+Nodes: 615
+BestBound: 229
+BestBoundRoot: 234
+BestBoundRootBeforeCuts: 263
+FinalGap: 0.7480916030534351
+Arguments: exact GRB 180 80 1

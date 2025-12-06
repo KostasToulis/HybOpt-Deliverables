@@ -1,0 +1,16 @@
+Dataset_name: 40krob200_T100_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,8,168,162,190,172,78,178,100,29,89,0
+Route_1: 0,9,110,116,196,38,84,10,128,7,94,0
+Route_2: 0,33,185,88,181,177,60,70,160,0
+Profit: 6844
+Time: 10800.03500008583
+
+Status: 9
+Nodes: 948
+BestBound: 9962
+BestBoundRoot: 10058
+BestBoundRootBeforeCuts: 10058
+FinalGap: 0.4555815312682642
+Arguments: exact GRB 180 100 2

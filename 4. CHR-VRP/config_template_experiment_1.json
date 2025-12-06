@@ -1,0 +1,13 @@
+{
+    "NumberOfRuns": 10,
+    "MainKpi": 1,
+    "RclSize": 3,
+    "NearestNeighborsP": 2,
+    "MaxNonImproving": 1000,
+    "UseMath": true,
+    "Penalty": 10000,
+    "MathModelThresh": 0.98,
+    "MaxAdditionsRemovalsPerRoute": [1, 2, 3],
+    "MinSPChange": [0.1, 0.2, 0.3],
+    "ResetThresholdMultiplier": 1.5
+  }

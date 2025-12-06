@@ -1,0 +1,17 @@
+Dataset_name: 89pcb442_T80_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,113,148,160,400,405,238,273,279,310,285,423,243,242,402,186,388,386,66,0
+Route_1: 0,35,115,152,163,176,214,215,204,205,193,166,141,128,104,0
+Route_2: 0,42,44,47,48,51,52,86,90,91,100,110,109,107,106,71,0
+Profit: 13770
+Time: 301.5109034
+
+Status: Feasible
+BestBound: 22323
+BestRestart: 6
+RestartTime: 18.4946364
+Iterations: 15593
+IterationsTillBest: 5592
+TimeOfMath: 13.996
+Arguments: mls 80 2

@@ -1,0 +1,15 @@
+Dataset_name: 11berlin52_T60_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,21,18,44,0
+Route_1: 0,30,20,41,0
+Profit: 2023
+Time: 84.69299983978271
+
+Status: 2
+Nodes: 4079
+BestBound: 2023
+BestBoundRoot: 2246
+BestBoundRootBeforeCuts: 2608
+FinalGap: 0
+Arguments: exact GRB 180 60 2

@@ -1,0 +1,17 @@
+Dataset_name: 16pr76_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,1,0
+Route_1: 0,2,0
+Route_2: 0,22,0
+Route_3: 0,74,0
+Profit: 736
+Time: 30.2276855
+
+Status: Optimal
+Nodes: 137
+BestBound: 736
+BestBoundRoot: 1859.997077056833
+BestBoundRootBeforeCuts: 2751.849892948894
+FinalGap: 0
+Arguments: exact CPX 180 60 2

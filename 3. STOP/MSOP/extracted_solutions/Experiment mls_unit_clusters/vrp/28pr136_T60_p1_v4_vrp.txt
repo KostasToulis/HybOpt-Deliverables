@@ -1,0 +1,16 @@
+Dataset_name: 28pr136_T60_p1_v4
+Vehicles: 7
+Routes
+Route_0: 0,16,30,50,37,18,0 (6350)
+Route_1: 0,27,41,0 (6264)
+Route_2: 0,5,29,17,4,0 (5064)
+Route_3: 0,26,31,19,15,1,7,6,0 (5992)
+Route_4: 0,40,0 (5860)
+Route_5: 0,39,0 (5828)
+Route_6: 0,28,38,0 (6196)
+Profit: 0
+Time: 1799.8332951
+
+Total distance: 41554
+Unserved customers: 52 62 63 64 36 49 53 60 61 65  (10)
+Arguments: VRP LS 30 0 0

@@ -1,0 +1,15 @@
+Dataset_name: 26bier127_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,13,26,24,116,11,92,126,110,93,56,0
+Route_1: 0,112,64,88,91,103,109,86,74,16,0
+Profit: 117
+Time: 10800.0689183
+
+Status: Feasible
+Nodes: 6282
+BestBound: 122.86931583176522
+BestBoundRoot: 123.6578226831566
+BestBoundRootBeforeCuts: 124.24339306139582
+FinalGap: 0.050165092579147044
+Arguments: exact CPX 180 80 1

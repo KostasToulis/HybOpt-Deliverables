@@ -1,0 +1,15 @@
+Dataset_name: 157rat783_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Profit: 0
+Time: 10800.118000030518
+
+Status: 9
+BestBound: 782
+BestBoundRoot: 782
+BestBoundRootBeforeCuts: 782
+FinalGap: 1E+100
+Arguments: exact GRB 180 100 1

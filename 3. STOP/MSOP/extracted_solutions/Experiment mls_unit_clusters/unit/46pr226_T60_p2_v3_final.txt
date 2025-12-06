@@ -1,0 +1,17 @@
+Dataset_name: 46pr226_T60_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,71,70,67,66,64,19,18,17,16,14,13,9,8,6,5,4,3,2,1,0
+Route_1: 0,72,73,74,75,76,77,78,79,80,81,82,83,85,84,69,65,68,15,12,11,10,7,0
+Route_2: 0,110,111,103,104,102,0
+Profit: 2359
+Time: 65.6494911
+
+Status: Feasible
+BestBound: 11375
+BestRestart: 4
+RestartTime: 4.51381
+Iterations: 13250
+IterationsTillBest: 3249
+TimeOfMath: 1.458
+Arguments: mls 60 2

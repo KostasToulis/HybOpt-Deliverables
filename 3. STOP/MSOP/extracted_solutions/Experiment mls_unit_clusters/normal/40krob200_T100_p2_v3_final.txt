@@ -1,0 +1,17 @@
+Dataset_name: 40krob200_T100_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,89,140,172,87,103,190,168,45,0
+Route_1: 0,160,70,60,177,73,181,88,195,33,0
+Route_2: 0,94,7,128,157,84,169,189,116,68,74,29,122,0
+Profit: 7061
+Time: 252.5942676
+
+Status: Feasible
+BestBound: 10058
+BestRestart: 1
+RestartTime: 13.8938064
+Iterations: 15801
+IterationsTillBest: 5800
+TimeOfMath: 12.96
+Arguments: mls 100 2

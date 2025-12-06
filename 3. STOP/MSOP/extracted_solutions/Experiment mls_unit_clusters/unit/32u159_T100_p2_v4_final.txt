@@ -1,0 +1,18 @@
+Dataset_name: 32u159_T100_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,155,154,149,140,138,139,141,144,148,147,150,153,1,0
+Route_1: 0,128,123,129,131,130,127,126,125,0
+Route_2: 0,3,4,152,151,6,146,145,143,142,14,13,12,10,11,9,8,7,5,2,0
+Route_3: 0,156,135,134,133,132,157,158,0
+Profit: 2464
+Time: 67.9703126
+
+Status: Feasible
+BestBound: 8037
+BestRestart: 1
+RestartTime: 2.8566802
+Iterations: 11857
+IterationsTillBest: 1856
+TimeOfMath: 0.887
+Arguments: mls 100 2

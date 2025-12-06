@@ -1,0 +1,17 @@
+Dataset_name: 132d657_T60_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 0
+
+Status: 
+Nodes: 0
+BestBound: 0
+BestBoundRoot: 0
+BestBoundRootBeforeCuts: 0
+FinalGap: 0
+Arguments: exact CPX 180 60 1

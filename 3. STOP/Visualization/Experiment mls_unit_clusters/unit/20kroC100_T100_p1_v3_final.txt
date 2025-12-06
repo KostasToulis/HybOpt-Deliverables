@@ -1,0 +1,17 @@
+Dataset_name: 20kroC100_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,39,11,92,98,9,91,18,48,17,0
+Route_1: 0,84,26,12,64,30,46,66,54,63,19,78,14,0
+Route_2: 0,52,23,31,60,25,77,81,8,36,28,45,0
+Profit: 32
+Time: 102.7964457
+
+Status: Feasible
+BestBound: 99
+BestRestart: 0
+RestartTime: 2.5704265
+Iterations: 10248
+IterationsTillBest: 247
+TimeOfMath: 1.751
+Arguments: mls 100 1

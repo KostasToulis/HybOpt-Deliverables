@@ -1,0 +1,17 @@
+Dataset_name: 53gil262_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,89,210,30,0
+Route_1: 0,107,243,67,0
+Route_2: 0,153,138,0
+Route_3: 0,228,0
+Profit: 1998
+Time: 10800.051000118256
+
+Status: 9
+Nodes: 949
+BestBound: 5021
+BestBoundRoot: 5395
+BestBoundRootBeforeCuts: 13193
+FinalGap: 1.513013013013013
+Arguments: exact GRB 180 60 2

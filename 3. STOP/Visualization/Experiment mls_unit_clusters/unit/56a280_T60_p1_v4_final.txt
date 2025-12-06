@@ -1,0 +1,18 @@
+Dataset_name: 56a280_T60_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,1,241,240,239,238,237,230,245,244,243,242,279,0
+Route_1: 0,246,249,250,248,247,2,0
+Route_2: 0,278,277,258,259,274,275,276,3,0
+Route_3: 0,6,7,9,10,8,5,4,0
+Profit: 33
+Time: 134.6946243
+
+Status: Feasible
+BestBound: 279
+BestRestart: 0
+RestartTime: 6.7129023
+Iterations: 10345
+IterationsTillBest: 344
+TimeOfMath: 4.154
+Arguments: mls 60 1

@@ -1,0 +1,14 @@
+Dataset_name: 217vm1084_T100_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Profit: 0
+Time: 10800.188999891281
+
+Status: 9
+BestBound: 1083
+BestBoundRoot: 1083
+BestBoundRootBeforeCuts: 1083
+FinalGap: 1E+100
+Arguments: exact GRB 180 100 1

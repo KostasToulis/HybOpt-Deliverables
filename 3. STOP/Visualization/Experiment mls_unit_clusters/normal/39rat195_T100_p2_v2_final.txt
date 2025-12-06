@@ -1,0 +1,16 @@
+Dataset_name: 39rat195_T100_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,1,5,7,23,35,36,49,62,74,99,98,71,44,15,0
+Route_1: 0,28,55,69,82,94,107,132,131,118,92,52,26,0
+Profit: 6644
+Time: 137.0684445
+
+Status: Feasible
+BestBound: 9863
+BestRestart: 0
+RestartTime: 6.7173295
+Iterations: 13181
+IterationsTillBest: 3180
+TimeOfMath: 6.098
+Arguments: mls 100 2

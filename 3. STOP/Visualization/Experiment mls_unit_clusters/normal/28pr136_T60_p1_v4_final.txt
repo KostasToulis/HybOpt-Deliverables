@@ -1,0 +1,18 @@
+Dataset_name: 28pr136_T60_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,37,4,5,0
+Route_1: 0,31,15,0
+Route_2: 0,41,0
+Route_3: 0,0
+Profit: 32
+Time: 59.5683911
+
+Status: Feasible
+BestBound: 135
+BestRestart: 0
+RestartTime: 2.8290672
+Iterations: 10000
+IterationsTillBest: 0
+TimeOfMath: 2.402
+Arguments: mls 60 1

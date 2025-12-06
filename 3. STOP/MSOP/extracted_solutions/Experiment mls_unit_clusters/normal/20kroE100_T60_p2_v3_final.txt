@@ -1,0 +1,17 @@
+Dataset_name: 20kroE100_T60_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,46,15,0
+Route_1: 0,61,63,6,73,0
+Route_2: 0,51,0
+Profit: 2098
+Time: 19.220258
+
+Status: Feasible
+BestBound: 5008
+BestRestart: 0
+RestartTime: 0.9207168
+Iterations: 10004
+IterationsTillBest: 3
+TimeOfMath: 0.693
+Arguments: mls 60 2

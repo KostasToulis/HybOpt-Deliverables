@@ -1,0 +1,15 @@
+Dataset_name: 20kroE100_T60_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,51,0
+Route_1: 0,63,61,75,0
+Route_2: 0,73,72,46,0
+Profit: 2098
+Time: 10800.025000095367
+
+Status: 9
+BestBound: 2388
+BestBoundRoot: 2790
+BestBoundRootBeforeCuts: 5008
+FinalGap: 0.13822688274547187
+Arguments: exact GRB 180 60 2

@@ -1,0 +1,15 @@
+Dataset_name: 11berlin52_T60_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,22,41,30,21,0
+Route_1: 0,44,18,0
+Profit: 2023
+Time: 104.874625
+
+Status: Optimal
+Nodes: 3107
+BestBound: 2023
+BestBoundRoot: 2253.746092951139
+BestBoundRootBeforeCuts: 2366.3194127967986
+FinalGap: 0
+Arguments: exact CPX 180 60 2

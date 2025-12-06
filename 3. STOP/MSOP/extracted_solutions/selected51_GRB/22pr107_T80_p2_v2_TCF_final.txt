@@ -1,0 +1,15 @@
+Dataset_name: 22pr107_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,4,0
+Route_1: 0,39,37,35,28,22,14,7,2,0
+Profit: 2123
+Time: 10800.007999897003
+
+Status: 9
+Nodes: 18058
+BestBound: 3613.999999972813
+BestBoundRoot: 4176
+BestBoundRootBeforeCuts: 5363
+FinalGap: 0.7023080546268549
+Arguments: exact GRB 180 80 2

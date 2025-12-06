@@ -1,0 +1,18 @@
+Dataset_name: 53gil262_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,30,210,60,0
+Route_1: 0,153,0
+Route_2: 0,67,243,107,138,228,0
+Route_3: 0,0
+Profit: 1998
+Time: 505.174046
+
+Status: Feasible
+BestBound: 13193
+BestRestart: 0
+RestartTime: 25.0914455
+Iterations: 10000
+IterationsTillBest: 0
+TimeOfMath: 24.173
+Arguments: mls 60 2

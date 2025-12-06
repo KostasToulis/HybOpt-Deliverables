@@ -1,0 +1,16 @@
+Dataset_name: 131p654_T80_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 10800.107000112534
+
+Status: 9
+BestBound: 32997
+BestBoundRoot: 32997
+BestBoundRootBeforeCuts: 32997
+FinalGap: 1E+100
+Arguments: exact GRB 180 80 2

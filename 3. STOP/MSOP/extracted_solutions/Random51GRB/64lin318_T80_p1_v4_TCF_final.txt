@@ -1,0 +1,16 @@
+Dataset_name: 64lin318_T80_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,7,4,111,107,112,116,2,0
+Route_1: 0,11,35,40,51,61,14,0
+Route_2: 0,16,34,37,144,208,0
+Route_3: 0,43,46,63,1,0
+Profit: 109
+Time: 10800.101999998093
+
+Status: 9
+BestBound: 270
+BestBoundRoot: 270
+BestBoundRootBeforeCuts: 317
+FinalGap: 1.4770642201834863
+Arguments: exact GRB 180 80 1

@@ -1,0 +1,216 @@
+Total_Objective: 336863
+Total_Routing_Objective: 98295
+Total_Inventory_Objective: 38568
+Total_Production_Objective: 0
+Total_Production_Setup_Objective: 200000
+Total_Inventory_Objective_(incl.firstDayInvCost): 336863
+
+Total periods: 20
+Total routes per period: 13
+
+Period_1_Routes:
+-Route_0 : 1 6 4 5 8 17 24 2 43 27 10 37 18 28 51 26 45 47 19 7 35 20 34 30 41 23 1
+-Route_1 : 1 29 15 48 11 21 14 50 12 40 31 33 16 32 49 39 3 22 36 9 44 42 25 46 13 38 1
+
+Period_2_Routes:
+-Route_0 : 1 31 40 49 39 45 26 18 3 38 1
+-Route_1 : 1 30 22 32 20 34 41 23 1
+-Route_2 : 1 17 24 43 27 28 51 47 19 7 35 16 33 50 29 1
+-Route_3 : 1 42 4 44 12 14 21 11 48 15 1
+-Route_4 : 1 13 36 9 37 10 2 8 5 25 46 6 1
+
+Period_3_Routes:
+-Route_0 : 1 50 16 35 7 19 47 45 26 1
+-Route_1 : 1 15 29 1
+
+Period_4_Routes:
+-Route_0 : 1 5 8 17 43 2 4 42 46 1
+-Route_1 : 1 23 12 40 31 14 48 15 1
+-Route_2 : 1 36 22 3 51 28 18 37 27 10 1
+-Route_3 : 1 11 21 33 16 32 49 39 9 1
+-Route_4 : 1 29 41 34 30 13 38 1
+
+Period_5_Routes:
+-Route_0 : 1 5 8 17 24 2 44 4 6 1
+-Route_1 : 1 1
+-Route_2 : 1 13 38 1
+
+Period_6_Routes:
+-Route_0: 1 1
+
+Period_7_Routes:
+-Route_0: 1 1
+
+Period_8_Routes:
+-Route_0 : 1 42 4 27 43 24 8 5 25 6 1
+-Route_1 : 1 38 13 36 22 39 49 31 34 1
+-Route_2 : 1 20 35 7 19 47 45 26 51 1
+-Route_3 : 1 50 33 21 11 48 15 29 1
+-Route_4 : 1 46 44 10 37 9 30 41 23 1
+
+Period_9_Routes:
+-Route_0 : 1 50 12 40 20 32 49 3 18 28 1
+
+Period_10_Routes:
+-Route_0: 1 1
+
+Period_11_Routes:
+-Route_0: 1 1
+
+Period_12_Routes:
+-Route_0: 1 1
+
+Period_13_Routes:
+-Route_0: 1 1
+
+Period_14_Routes:
+-Route_0: 1 1
+
+Period_15_Routes:
+-Route_0: 1 1
+
+Period_16_Routes:
+-Route_0 : 1 6 4 37 10 24 17 8 5 25 1
+-Route_1 : 1 36 49 32 7 19 47 45 26 1
+-Route_2 : 1 46 30 34 50 14 11 48 15 1
+-Route_3 : 1 23 12 31 40 27 43 2 44 42 1
+-Route_4 : 1 29 41 3 51 28 18 9 13 38 1
+
+Period_17_Routes:
+-Route_0 : 1 1
+-Route_1 : 1 1
+-Route_2 : 1 1
+-Route_3 : 1 29 14 21 33 16 20 35 49 39 22 42 25 1
+
+Period_18_Routes:
+-Route_0: 1 1
+
+Period_19_Routes:
+-Route_0: 1 1
+
+Period_20_Routes:
+-Route_0: 1 1
+
+
+
+Period_1_production_quantity:
+0
+Period_2_production_quantity:
+50000
+Period_3_production_quantity:
+0
+Period_4_production_quantity:
+50000
+Period_5_production_quantity:
+0
+Period_6_production_quantity:
+0
+Period_7_production_quantity:
+0
+Period_8_production_quantity:
+48000
+Period_9_production_quantity:
+0
+Period_10_production_quantity:
+0
+Period_11_production_quantity:
+0
+Period_12_production_quantity:
+0
+Period_13_production_quantity:
+0
+Period_14_production_quantity:
+0
+Period_15_production_quantity:
+0
+Period_16_production_quantity:
+47791
+Period_17_production_quantity:
+0
+Period_18_production_quantity:
+0
+Period_19_production_quantity:
+0
+Period_20_production_quantity:
+0
+
+
+Period_1_delivered_quantity:
+6 4 5 8 17 24 2 43 27 10 37 18 28 51 26 45 47 19 7 35 20 34 30 41 23 29 15 48 11 21 14 50 12 40 31 33 16 32 49 39 3 22 36 9 44 42 25 46 13 38 
+139.0 311.0 349.0 327.0 21.0 93.0 246.0 113.0 155.0 128.0 487.0 192.0 20.0 285.0 170.0 109.0 228.0 134.0 191.0 288.0 23.0 180.0 252.0 412.0 68.0 218.0 85.0 166.0 147.0 191.0 144.0 173.0 138.0 312.0 387.0 441.0 183.0 362.0 157.0 222.0 265.0 36.0 344.0 178.0 153.0 229.0 181.0 210.0 46.0 428.0 
+
+Period_2_delivered_quantity:
+31 40 49 39 45 26 18 3 38 30 22 32 20 34 41 23 17 24 43 27 28 51 47 19 7 35 16 33 50 29 42 4 44 12 14 21 11 48 15 13 36 9 37 10 2 8 5 25 46 6 
+1246.0 664.0 457.0 1242.0 1050.0 1033.0 950.0 927.0 431.0 1295.0 941.0 1353.0 899.0 1634.0 829.0 1049.0 252.0 374.0 1029.0 422.0 754.0 932.0 688.0 640.0 797.0 647.0 149.0 952.0 203.0 161.0 932.0 1068.0 903.0 982.0 1027.0 1037.0 993.0 912.0 146.0 102.0 1687.0 657.0 570.0 983.0 879.0 469.0 438.0 1054.0 553.0 608.0 
+
+Period_3_delivered_quantity:
+50 16 35 7 19 47 45 26 15 29 
+1011.0 928.0 1497.0 1111.0 1050.0 995.0 531.0 877.0 553.0 1447.0 
+
+Period_4_delivered_quantity:
+5 8 17 43 2 4 42 46 23 12 40 31 14 48 15 36 22 3 51 28 18 37 27 10 11 21 33 16 32 49 39 9 29 41 34 30 13 38 
+689.0 1295.0 1007.0 955.0 1249.0 1057.0 781.0 967.0 954.0 984.0 1666.0 1687.0 918.0 912.0 879.0 773.0 537.0 1272.0 1022.0 1027.0 808.0 1281.0 989.0 291.0 386.0 598.0 1363.0 1078.0 1377.0 1025.0 1190.0 983.0 823.0 1578.0 1599.0 1517.0 1060.0 1423.0 
+
+Period_5_delivered_quantity:
+5 8 17 24 2 44 4 6 13 38 
+1189.0 1036.0 1014.0 980.0 1064.0 903.0 804.0 1010.0 957.0 1043.0 
+
+Period_6_delivered_quantity:
+-1
+0.0
+
+Period_7_delivered_quantity:
+-1
+0.0
+
+Period_8_delivered_quantity:
+42 4 27 43 24 8 5 25 6 38 13 36 22 39 49 31 34 20 35 7 19 47 45 26 51 50 33 21 11 48 15 29 46 44 10 37 9 30 41 23 
+1006.0 385.0 943.0 1094.0 966.0 891.0 733.0 874.0 1108.0 549.0 258.0 1427.0 929.0 1412.0 933.0 1625.0 867.0 921.0 1668.0 1151.0 1024.0 907.0 1086.0 342.0 901.0 1045.0 1557.0 982.0 1049.0 957.0 920.0 1490.0 999.0 939.0 1050.0 1364.0 974.0 816.0 1472.0 386.0 
+
+Period_9_delivered_quantity:
+50 12 40 20 32 49 3 18 28 
+908.0 61.0 1247.0 971.0 1625.0 634.0 1278.0 700.0 576.0 
+
+Period_10_delivered_quantity:
+-1
+0.0
+
+Period_11_delivered_quantity:
+-1
+0.0
+
+Period_12_delivered_quantity:
+-1
+0.0
+
+Period_13_delivered_quantity:
+-1
+0.0
+
+Period_14_delivered_quantity:
+-1
+0.0
+
+Period_15_delivered_quantity:
+-1
+0.0
+
+Period_16_delivered_quantity:
+6 4 37 10 24 17 8 5 25 36 49 32 7 19 47 45 26 46 30 34 50 14 11 48 15 23 12 31 40 27 43 2 44 42 29 41 3 51 28 18 9 13 38 
+918.0 707.0 840.0 1154.0 1013.0 1132.0 678.0 819.0 739.0 931.0 864.0 813.0 888.0 1184.0 1026.0 1074.0 1220.0 1032.0 775.0 893.0 973.0 1070.0 1221.0 929.0 1107.0 1129.0 1004.0 645.0 784.0 1030.0 1007.0 647.0 804.0 950.0 460.0 857.0 677.0 901.0 1196.0 1156.0 1004.0 1117.0 632.0 
+
+Period_17_delivered_quantity:
+29 14 21 33 16 20 35 49 39 22 42 25 
+198.0 135.0 1229.0 582.0 1190.0 1109.0 524.0 246.0 817.0 961.0 152.0 648.0 
+
+Period_18_delivered_quantity:
+-1
+0.0
+
+Period_19_delivered_quantity:
+-1
+0.0
+
+Period_20_delivered_quantity:
+-1
+0.0

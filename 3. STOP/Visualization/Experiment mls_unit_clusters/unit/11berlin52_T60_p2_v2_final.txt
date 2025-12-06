@@ -1,0 +1,16 @@
+Dataset_name: 11berlin52_T60_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,34,35,38,39,37,4,14,5,23,47,36,33,43,49,19,22,0
+Route_1: 0,21,30,17,2,40,7,18,44,31,48,0
+Profit: 1274
+Time: 95.8782054
+
+Status: Feasible
+BestBound: 2608
+BestRestart: 0
+RestartTime: 5.8076825
+Iterations: 10358
+IterationsTillBest: 357
+TimeOfMath: 5.422
+Arguments: mls 60 2

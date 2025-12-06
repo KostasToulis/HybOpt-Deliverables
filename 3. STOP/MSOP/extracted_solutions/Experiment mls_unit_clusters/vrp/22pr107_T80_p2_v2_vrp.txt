@@ -1,0 +1,11 @@
+Dataset_name: 22pr107_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,3,11,15,21,27,33,36,39,38,41,40,37,34,31,29,23,17,9,5,0 (11107)
+Route_1: 0,1,4,6,8,13,16,19,22,25,28,35,32,30,26,24,20,18,14,12,10,7,2,0 (9022)
+Profit: 0
+Time: 1799.9802663
+
+Total distance: 20129
+Unserved customers:  (0)
+Arguments: VRP LS 30 0 0

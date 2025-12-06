@@ -1,0 +1,17 @@
+Dataset_name: 132d657_T60_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 10800.12800002098
+
+Status: 9
+Nodes: 1
+BestBound: 656
+BestBoundRoot: 656
+BestBoundRootBeforeCuts: 656
+FinalGap: 1E+100
+Arguments: exact GRB 180 60 1

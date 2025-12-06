@@ -1,0 +1,17 @@
+Dataset_name: 30kroA150_T80_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,130,90,108,31,10,14,16,140,58,73,20,71,112,0
+Route_1: 0,138,96,118,142,55,79,30,88,121,41,7,129,0
+Route_2: 0,62,5,48,89,105,78,136,87,15,133,52,18,74,91,0
+Profit: 2092
+Time: 158.7576353
+
+Status: Feasible
+BestBound: 7533
+BestRestart: 3
+RestartTime: 10.4869662
+Iterations: 20356
+IterationsTillBest: 10355
+TimeOfMath: 7.682
+Arguments: mls 80 2

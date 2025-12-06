@@ -1,0 +1,17 @@
+Dataset_name: 32u159_T100_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,7,141,0
+Route_1: 0,16,0
+Route_2: 0,135,131,157,0
+Route_3: 0,158,126,128,113,124,0
+Profit: 3978
+Time: 10800.0459838
+
+Status: Feasible
+Nodes: 3932
+BestBound: 6402.963233035486
+BestBoundRoot: 7031.951216709898
+BestBoundRootBeforeCuts: 7654.017337899595
+FinalGap: 0.6095935729098605
+Arguments: exact CPX 180 100 2

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VrdpoProject": {
+      "commandName": "Project",
+      "commandLineArgs": "U_100_1.txt"
+    }
+  }
+}

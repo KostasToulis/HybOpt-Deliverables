@@ -1,0 +1,17 @@
+Dataset_name: 99d493_T100_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,38,33,21,265,224,215,193,180,20,41,50,0
+Route_1: 0,31,30,398,368,357,388,430,457,456,26,27,0
+Route_2: 0,2,51,55,57,63,61,17,18,11,10,6,5,1,0
+Profit: 9145
+Time: 200.8324287
+
+Status: Feasible
+BestBound: 24862
+BestRestart: 5
+RestartTime: 15.4390009
+Iterations: 16352
+IterationsTillBest: 6351
+TimeOfMath: 12.19
+Arguments: mls 100 2

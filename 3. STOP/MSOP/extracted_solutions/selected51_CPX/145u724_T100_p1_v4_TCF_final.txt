@@ -1,0 +1,17 @@
+Dataset_name: 145u724_T100_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 10801.5217676
+
+Status: Feasible
+Nodes: 0
+BestBound: 574
+BestBoundRoot: 0
+BestBoundRootBeforeCuts: 0
+FinalGap: 5740000000000
+Arguments: exact CPX 180 100 1

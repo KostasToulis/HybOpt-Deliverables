@@ -1,0 +1,18 @@
+Dataset_name: 30ch150_T100_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,106,96,145,97,0
+Route_1: 0,120,78,0
+Route_2: 0,125,91,32,0
+Route_3: 0,2,20,0
+Profit: 3209
+Time: 20.1343598
+
+Status: Feasible
+BestBound: 7533
+BestRestart: 0
+RestartTime: 1.0300055
+Iterations: 10037
+IterationsTillBest: 36
+TimeOfMath: 0.667
+Arguments: mls 100 2

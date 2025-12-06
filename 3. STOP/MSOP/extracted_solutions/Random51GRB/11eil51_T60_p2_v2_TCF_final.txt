@@ -1,0 +1,14 @@
+Dataset_name: 11eil51_T60_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,26,47,7,0
+Route_1: 0,37,1,0
+Profit: 1466
+Time: 14.15999984741211
+
+Status: 2
+BestBound: 1466
+BestBoundRoot: 1783
+BestBoundRootBeforeCuts: 2575
+FinalGap: 0
+Arguments: exact GRB 180 60 2

@@ -1,0 +1,16 @@
+Dataset_name: 16pr76_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,1,0
+Route_1: 0,2,0
+Route_2: 0,22,0
+Route_3: 0,74,0
+Profit: 736
+Time: 39.009000062942505
+
+Status: 2
+BestBound: 736
+BestBoundRoot: 1798
+BestBoundRootBeforeCuts: 3800
+FinalGap: 0
+Arguments: exact GRB 180 60 2

@@ -1,0 +1,17 @@
+Dataset_name: 212u1060_T60_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 10800.201000213623
+
+Status: 9
+Nodes: 1
+BestBound: 1059
+BestBoundRoot: 1059
+BestBoundRootBeforeCuts: 1059
+FinalGap: 1E+100
+Arguments: exact GRB 180 60 1

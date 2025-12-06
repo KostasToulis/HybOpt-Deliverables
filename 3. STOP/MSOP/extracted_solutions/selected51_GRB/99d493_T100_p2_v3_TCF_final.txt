@@ -1,0 +1,16 @@
+Dataset_name: 99d493_T100_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Profit: 0
+Time: 10800.060000181198
+
+Status: 9
+Nodes: 1
+BestBound: 24862
+BestBoundRoot: 24862
+BestBoundRootBeforeCuts: 24862
+FinalGap: 1E+100
+Arguments: exact GRB 180 100 2

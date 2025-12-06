@@ -1,0 +1,19 @@
+Dataset_name: 20kroB100_T60_p2_v3
+Vehicles: 10
+Routes
+Route_0: 0,2,10,92,84,72,0 (2001)
+Route_1: 0,11,34,60,70,0 (1765)
+Route_2: 0,20,85,48,29,74,79,19,37,89,0 (2011)
+Route_3: 0,28,7,98,75,96,90,27,94,0 (1999)
+Route_4: 0,52,0 (2006)
+Route_5: 0,56,0 (2018)
+Route_6: 0,97,31,58,0 (1218)
+Route_7: 0,26,93,0 (1932)
+Route_8: 0,67,9,0 (1365)
+Route_9: 0,8,33,24,45,0 (1716)
+Profit: 0
+Time: 1799.9754244
+
+Total distance: 18031
+Unserved customers:  (0)
+Arguments: VRP LS 30 0 0

@@ -1,0 +1,15 @@
+Dataset_name: 21eil101_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,68,51,83,92,86,1,0
+Route_1: 0,75,23,54,49,29,69,0
+Profit: 4246
+Time: 10800.009999990463
+
+Status: 9
+Nodes: 24060
+BestBound: 4578
+BestBoundRoot: 4787
+BestBoundRootBeforeCuts: 5050
+FinalGap: 0.07819123881300047
+Arguments: exact GRB 180 80 2

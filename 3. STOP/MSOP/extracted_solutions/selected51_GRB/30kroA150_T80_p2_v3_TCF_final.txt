@@ -1,0 +1,16 @@
+Dataset_name: 30kroA150_T80_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,41,55,64,74,0
+Route_1: 0,109,86,50,57,27,0
+Route_2: 0,112,71,37,23,17,78,89,62,0
+Profit: 4539
+Time: 10800.012000083923
+
+Status: 9
+Nodes: 6761
+BestBound: 5612
+BestBoundRoot: 6110
+BestBoundRootBeforeCuts: 7533
+FinalGap: 0.2363956818682529
+Arguments: exact GRB 180 80 2

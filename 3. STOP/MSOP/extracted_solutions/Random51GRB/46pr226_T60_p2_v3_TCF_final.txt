@@ -1,0 +1,15 @@
+Dataset_name: 46pr226_T60_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,8,17,19,64,0
+Route_1: 0,71,69,110,0
+Route_2: 0,72,78,84,70,65,1,0
+Profit: 2507
+Time: 10800.046000003815
+
+Status: 9
+BestBound: 7076
+BestBoundRoot: 8577
+BestBoundRootBeforeCuts: 11375
+FinalGap: 1.8224970083765457
+Arguments: exact GRB 180 60 2

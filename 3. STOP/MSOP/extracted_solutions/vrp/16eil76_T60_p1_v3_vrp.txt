@@ -1,0 +1,18 @@
+Dataset_name: 16eil76_T60_p1_v3
+Vehicles: 9
+Routes
+Route_0: 0,21,0 (20)
+Route_1: 0,63,41,0 (39)
+Route_2: 0,67,72,0 (41)
+Route_3: 0,61,73,27,0 (41)
+Route_4: 0,48,0 (38)
+Route_5: 0,32,50,0 (39)
+Route_6: 0,15,62,0 (31)
+Route_7: 0,1,5,0 (41)
+Route_8: 0,42,40,55,22,0 (41)
+Profit: 0
+Time: 1799.917888
+
+Total distance: 331
+Unserved customers: 23 3 29 33 44 45 66 74 75 20 35 46 47 60 68  (15)
+Arguments: VRP LS 30 0 0

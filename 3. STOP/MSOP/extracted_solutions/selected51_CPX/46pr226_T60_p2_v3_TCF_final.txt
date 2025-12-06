@@ -1,0 +1,16 @@
+Dataset_name: 46pr226_T60_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,6,68,71,64,0
+Route_1: 0,10,18,19,0
+Route_2: 0,76,80,72,65,1,0
+Profit: 2111
+Time: 10800.2158205
+
+Status: Feasible
+Nodes: 1454
+BestBound: 8501.205920835679
+BestBoundRoot: 9697.998706033597
+BestBoundRootBeforeCuts: 10158.190507765432
+FinalGap: 3.027098967709794
+Arguments: exact CPX 180 60 2

@@ -1,0 +1,18 @@
+Dataset_name: 31pr152_T100_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,35,14,4,2,3,0
+Route_1: 0,11,5,0
+Route_2: 0,48,0
+Route_3: 0,38,0
+Profit: 38
+Time: 36.4494728
+
+Status: Feasible
+BestBound: 151
+BestRestart: 0
+RestartTime: 1.5750511
+Iterations: 10000
+IterationsTillBest: 0
+TimeOfMath: 1.164
+Arguments: mls 100 1

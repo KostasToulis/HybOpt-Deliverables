@@ -1,0 +1,17 @@
+Dataset_name: 45ts225_T80_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,10,135,131,2,0
+Route_1: 0,50,125,0
+Route_2: 0,128,27,54,55,0
+Route_3: 0,133,35,36,0
+Profit: 67
+Time: 10800.043999910355
+
+Status: 9
+Nodes: 684
+BestBound: 144
+BestBoundRoot: 156
+BestBoundRootBeforeCuts: 224
+FinalGap: 1.1492537313432836
+Arguments: exact GRB 180 80 1

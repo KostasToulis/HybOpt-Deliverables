@@ -1,0 +1,16 @@
+Dataset_name: 40d198_T60_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,2,3,0
+Route_1: 0,0
+Profit: 6
+Time: 89.8454414
+
+Status: Feasible
+BestBound: 197
+BestRestart: 0
+RestartTime: 4.6011453
+Iterations: 10000
+IterationsTillBest: 0
+TimeOfMath: 4.289
+Arguments: mls 60 1

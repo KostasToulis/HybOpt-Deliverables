@@ -1,0 +1,16 @@
+Dataset_name: 26ch130_T60_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,15,61,2,17,40,0
+Route_1: 0,126,16,1,0
+Route_2: 0,128,25,0
+Profit: 2846
+Time: 10800.0388273
+
+Status: Feasible
+Nodes: 12823
+BestBound: 4336.881845937416
+BestBoundRoot: 4694.258140032625
+BestBoundRootBeforeCuts: 5319.408138012285
+FinalGap: 0.5238516675816457
+Arguments: exact CPX 180 60 2

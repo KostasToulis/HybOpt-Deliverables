@@ -1,0 +1,17 @@
+Dataset_name: 53gil262_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,153,107,0
+Route_1: 0,210,70,0
+Route_2: 0,228,128,204,0
+Route_3: 0,243,141,0
+Profit: 1998
+Time: 10800.0852558
+
+Status: Feasible
+Nodes: 673
+BestBound: 5649.648535247082
+BestBoundRoot: 5925.704104914021
+BestBoundRootBeforeCuts: 7071.063148808949
+FinalGap: 1.8276519195429926
+Arguments: exact CPX 180 60 2

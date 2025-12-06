@@ -1,0 +1,16 @@
+Dataset_name: 20kroC100_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,3,13,39,0
+Route_1: 0,60,36,25,52,0
+Route_2: 0,63,46,5,14,0
+Profit: 59
+Time: 10800.0479728
+
+Status: Feasible
+Nodes: 25321
+BestBound: 82.0783274589973
+BestBoundRoot: 91.43453989931697
+BestBoundRootBeforeCuts: 99
+FinalGap: 0.39115809252471484
+Arguments: exact CPX 180 100 1

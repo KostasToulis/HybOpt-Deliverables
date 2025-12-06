@@ -1,0 +1,17 @@
+Dataset_name: 60pr299_T80_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,296,289,214,213,154,146,0
+Route_1: 0,2,140,96,95,94,79,78,14,12,6,1,0
+Route_2: 0,142,158,207,222,220,215,156,0
+Profit: 5778
+Time: 82.78934
+
+Status: Feasible
+BestBound: 15107
+BestRestart: 0
+RestartTime: 3.3763116
+Iterations: 10383
+IterationsTillBest: 382
+TimeOfMath: 2.122
+Arguments: mls 80 2

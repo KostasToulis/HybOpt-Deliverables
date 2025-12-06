@@ -1,0 +1,15 @@
+Dataset_name: 115u574_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,160,0
+Route_1: 0,243,0
+Profit: 538
+Time: 10801.3400179
+
+Status: Feasible
+Nodes: 0
+BestBound: 28957
+BestBoundRoot: 0
+BestBoundRootBeforeCuts: 0
+FinalGap: 289570000000000
+Arguments: exact CPX 180 80 2

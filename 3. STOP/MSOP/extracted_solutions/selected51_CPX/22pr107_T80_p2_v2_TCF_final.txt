@@ -1,0 +1,15 @@
+Dataset_name: 22pr107_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,1,2,0
+Route_1: 0,36,37,31,26,20,12,6,0
+Profit: 2123
+Time: 10800.0435077
+
+Status: Feasible
+Nodes: 11127
+BestBound: 3910.2901429169315
+BestBoundRoot: 4181.4888622729695
+BestBoundRootBeforeCuts: 4436.460335493347
+FinalGap: 0.8418700626080298
+Arguments: exact CPX 180 80 2

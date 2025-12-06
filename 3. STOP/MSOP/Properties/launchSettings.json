@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MSOP": {
+      "commandName": "Project",
+      "commandLineArgs": "mls 100 1"
+    }
+  }
+}

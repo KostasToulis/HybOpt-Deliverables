@@ -1,0 +1,15 @@
+Dataset_name: 39rat195_T100_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,13,52,66,84,97,126,0
+Route_1: 0,29,43,44,70,87,75,63,62,49,36,35,23,7,3,15,1,0
+Profit: 5304
+Time: 10800.0703546
+
+Status: Feasible
+Nodes: 3284
+BestBound: 9655.98318701012
+BestBoundRoot: 9863
+BestBoundRootBeforeCuts: 9863
+FinalGap: 0.8205096506429183
+Arguments: exact CPX 180 100 2

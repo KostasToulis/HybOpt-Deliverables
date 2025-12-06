@@ -1,0 +1,17 @@
+Dataset_name: 64lin318_T80_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 10800.1792889
+
+Status: Feasible
+Nodes: 1564
+BestBound: 199.29250696804294
+BestBoundRoot: 275.4571304178477
+BestBoundRootBeforeCuts: 286.84955189577533
+FinalGap: 1.120133052850329
+Arguments: exact CPX 180 80 1

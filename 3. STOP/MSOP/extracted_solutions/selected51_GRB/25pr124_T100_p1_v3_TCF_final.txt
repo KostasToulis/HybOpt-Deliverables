@@ -1,0 +1,16 @@
+Dataset_name: 25pr124_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,1,31,30,68,0
+Route_1: 0,7,21,42,43,16,15,0
+Route_2: 0,28,57,60,65,0
+Profit: 65
+Time: 10800.016999959946
+
+Status: 9
+Nodes: 7674
+BestBound: 120.99999999999997
+BestBoundRoot: 123
+BestBoundRootBeforeCuts: 123
+FinalGap: 0.8615384615384611
+Arguments: exact GRB 180 100 1

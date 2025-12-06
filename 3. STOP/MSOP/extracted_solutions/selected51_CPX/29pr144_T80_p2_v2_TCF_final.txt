@@ -1,0 +1,15 @@
+Dataset_name: 29pr144_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,33,53,52,82,84,103,87,0
+Route_1: 0,35,45,61,42,19,18,38,22,1,27,0
+Profit: 4230
+Time: 10800.105197
+
+Status: Feasible
+Nodes: 10360
+BestBound: 6351.014851821594
+BestBoundRoot: 6645.457367615641
+BestBoundRootBeforeCuts: 6864.900611848796
+FinalGap: 0.5014219507852349
+Arguments: exact CPX 180 80 2

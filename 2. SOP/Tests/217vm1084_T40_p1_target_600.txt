@@ -1,0 +1,3 @@
+Run: 0;Best:670;Cost:51931;Time:188,572;TimeExact:75,915;Best_found_at:13203;Iterations:23204;Sets_included:88
+Run: 1;Best:662;Cost:52255;Time:121,971;TimeExact:47,807;Best_found_at:3618;Iterations:13619;Sets_included:86
+Run: 2;Best:662;Cost:52134;Time:204,708;TimeExact:72,229;Best_found_at:15703;Iterations:25704;Sets_included:86

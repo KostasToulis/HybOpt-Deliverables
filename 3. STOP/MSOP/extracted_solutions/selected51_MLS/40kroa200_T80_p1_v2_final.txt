@@ -1,0 +1,16 @@
+Dataset_name: 40kroa200_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,52,120,171,60,15,62,43,47,164,96,179,35,98,148,0
+Route_1: 0,84,197,64,160,124,184,49,71,129,128,133,46,161,0
+Profit: 154
+Time: 276.5625319
+
+Status: Feasible
+BestBound: 199
+BestRestart: 0
+RestartTime: 10.9744342
+Iterations: 11722
+IterationsTillBest: 1721
+TimeOfMath: 10.357
+Arguments: mls 80 1

@@ -1,0 +1,16 @@
+Dataset_name: 89pcb442_T80_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Profit: 0
+Time: 10800.109193
+
+Status: Feasible
+Nodes: 7810
+BestBound: 5884.2672692978385
+BestBoundRoot: 21778.591420076424
+BestBoundRootBeforeCuts: 21778.591420076402
+FinalGap: 0.4285669505457139
+Arguments: exact CPX 180 80 2

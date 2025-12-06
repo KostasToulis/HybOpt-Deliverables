@@ -1,0 +1,15 @@
+Dataset_name: 26ch130_T60_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,1,17,2,127,15,0
+Route_1: 0,115,33,0
+Route_2: 0,128,96,126,0
+Profit: 3236
+Time: 10800.046000003815
+
+Status: 9
+BestBound: 4024
+BestBoundRoot: 4455
+BestBoundRootBeforeCuts: 6503
+FinalGap: 0.24351050679851668
+Arguments: exact GRB 180 60 2

@@ -1,0 +1,13 @@
+Dataset_name: 20rat99_T80_p1_v3
+Vehicles: 4
+Routes
+Route_0: 0,6,5,4,3,0 (127)
+Route_1: 0,1,11,22,14,13,0 (133)
+Route_2: 0,2,12,21,20,10,0 (119)
+Route_3: 0,9,19,18,0 (104)
+Profit: 0
+Time: 1799.8745049
+
+Total distance: 483
+Unserved customers: 7 8 15 23 24 25 27 28 29 30 31 36 37  (13)
+Arguments: VRP LS 30 0 0

@@ -1,0 +1,18 @@
+Dataset_name: 131p654_T80_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,532,533,550,551,552,555,557,558,539,107,111,132,153,172,192,81,85,89,92,99,0
+Route_1: 0,4,6,3,1,0
+Route_2: 0,93,84,82,77,74,0
+Route_3: 0,98,96,87,78,76,80,91,95,97,101,0
+Profit: 8708
+Time: 126.298796
+
+Status: Feasible
+BestBound: 32997
+BestRestart: 0
+RestartTime: 6.1379
+Iterations: 10013
+IterationsTillBest: 12
+TimeOfMath: 0.837
+Arguments: mls 80 2

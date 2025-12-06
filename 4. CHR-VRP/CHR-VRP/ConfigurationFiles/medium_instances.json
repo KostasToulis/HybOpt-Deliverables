@@ -1,0 +1,15 @@
+﻿{
+  "StartingPoint":50,
+  "EndingPoint": 51,
+  "NumberOfRuns": 10,
+  "MainKpi": 2,
+  "RclSize": 3,
+  "NearestNeighborsP": 2,
+  "MaxNonImproving": 2000,
+  "UseMath": true,
+  "Penalty": 10000,
+  "MathModelThresh": 50,
+  "MaxAdditionsPerRoute": 1,
+  "MaxRemovalsPerRoute": 1,
+  "ResetThresholdMultiplier": 1.5
+}

@@ -1,0 +1,15 @@
+Dataset_name: 21lin105_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,2,4,13,1,0
+Route_1: 0,22,103,35,18,11,0
+Route_2: 0,40,0
+Profit: 53
+Time: 10800.015999794006
+
+Status: 9
+BestBound: 87
+BestBoundRoot: 92
+BestBoundRootBeforeCuts: 104
+FinalGap: 0.6415094339622641
+Arguments: exact GRB 180 100 1

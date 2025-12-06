@@ -1,0 +1,18 @@
+Dataset_name: 132d657_T60_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,10,8,1,2,3,0
+Route_1: 0,9,4,0
+Route_2: 0,11,24,12,0
+Route_3: 0,7,0
+Profit: 11
+Time: 157.5474535
+
+Status: Feasible
+BestBound: 656
+BestRestart: 0
+RestartTime: 7.2120073
+Iterations: 10000
+IterationsTillBest: 0
+TimeOfMath: 3.787
+Arguments: mls 60 1

@@ -1,0 +1,17 @@
+Dataset_name: 16eil76_T60_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,22,15,62,0
+Route_1: 0,41,0
+Route_2: 0,1,27,0
+Profit: 34
+Time: 25.2202332
+
+Status: Feasible
+BestBound: 75
+BestRestart: 0
+RestartTime: 1.3173808
+Iterations: 10002
+IterationsTillBest: 1
+TimeOfMath: 1.12
+Arguments: mls 60 1

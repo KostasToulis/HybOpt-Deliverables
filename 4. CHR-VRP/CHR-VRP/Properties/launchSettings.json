@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CHR-VRP": {
+      "commandName": "Project",
+      "commandLineArgs": "../../../ConfigurationFiles/small_instances.json"
+    }
+  }
+}

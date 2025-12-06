@@ -1,0 +1,18 @@
+Dataset_name: 16pr76_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,1,2,3,0
+Route_1: 0,23,0
+Route_2: 0,75,74,0
+Route_3: 0,20,24,21,22,0
+Profit: 482
+Time: 48.1926305
+
+Status: Feasible
+BestBound: 3800
+BestRestart: 0
+RestartTime: 1.7133355
+Iterations: 10009
+IterationsTillBest: 8
+TimeOfMath: 1.246
+Arguments: mls 60 2

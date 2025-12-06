@@ -1,0 +1,16 @@
+Dataset_name: 157rat783_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,392,0
+Route_1: 0,579,0
+Route_2: 0,643,0
+Profit: 17
+Time: 10802.7450311
+
+Status: Feasible
+Nodes: 0
+BestBound: 782
+BestBoundRoot: 0
+BestBoundRootBeforeCuts: 0
+FinalGap: 7820000000000
+Arguments: exact CPX 180 100 1

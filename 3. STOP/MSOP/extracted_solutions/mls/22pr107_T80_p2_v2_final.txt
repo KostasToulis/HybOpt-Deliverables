@@ -1,0 +1,16 @@
+Dataset_name: 22pr107_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,39,30,24,21,14,8,4,3,0
+Route_1: 0,37,0
+Profit: 2123
+Time: 16.5844002
+
+Status: Feasible
+BestBound: 5363
+BestRestart: 0
+RestartTime: 0.8294863
+Iterations: 10000
+IterationsTillBest: 0
+TimeOfMath: 0.606
+Arguments: mls 80 2

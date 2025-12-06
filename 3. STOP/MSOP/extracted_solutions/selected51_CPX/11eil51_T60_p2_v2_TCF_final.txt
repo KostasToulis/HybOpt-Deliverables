@@ -1,0 +1,15 @@
+Dataset_name: 11eil51_T60_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,21,47,0
+Route_1: 0,31,37,1,0
+Profit: 1466
+Time: 555.987315
+
+Status: Optimal
+Nodes: 29052
+BestBound: 1466
+BestBoundRoot: 1833.9012343118384
+BestBoundRootBeforeCuts: 2002.3427353551572
+FinalGap: 0
+Arguments: exact CPX 180 60 2

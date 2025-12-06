@@ -1,0 +1,15 @@
+Dataset_name: 20rd100_T60_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,7,89,90,63,0
+Route_1: 0,62,2,77,20,14,0
+Profit: 2178
+Time: 10800.042000055313
+
+Status: 9
+Nodes: 33892
+BestBound: 3024.9999999993456
+BestBoundRoot: 3654
+BestBoundRootBeforeCuts: 5008
+FinalGap: 0.3888888888885884
+Arguments: exact GRB 180 60 2

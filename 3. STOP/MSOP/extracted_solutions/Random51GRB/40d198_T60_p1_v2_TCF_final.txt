@@ -1,0 +1,14 @@
+Dataset_name: 40d198_T60_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,1,0
+Route_1: 0,3,0
+Profit: 6
+Time: 10800.09700012207
+
+Status: 9
+BestBound: 50
+BestBoundRoot: 124
+BestBoundRootBeforeCuts: 197
+FinalGap: 7.333333333333333
+Arguments: exact GRB 180 60 1

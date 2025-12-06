@@ -1,0 +1,16 @@
+Dataset_name: 11eil51_T60_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,21,1,15,10,31,0
+Route_1: 0,47,5,50,45,0
+Profit: 527
+Time: 18.353348
+
+Status: Feasible
+BestBound: 2575
+BestRestart: 0
+RestartTime: 0.9977282
+Iterations: 10005
+IterationsTillBest: 4
+TimeOfMath: 0.781
+Arguments: mls 60 2

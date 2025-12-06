@@ -1,0 +1,18 @@
+Dataset_name: 64lin318_T80_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,133,126,116,112,107,4,2,0
+Route_1: 0,1,315,44,40,35,0
+Route_2: 0,15,37,144,208,7,0
+Route_3: 0,103,53,63,28,10,0
+Profit: 109
+Time: 37.4459507
+
+Status: Feasible
+BestBound: 317
+BestRestart: 0
+RestartTime: 1.8405061
+Iterations: 10488
+IterationsTillBest: 487
+TimeOfMath: 0.725
+Arguments: mls 80 1

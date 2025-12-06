@@ -1,0 +1,16 @@
+Dataset_name: 80rd400_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,44,236,231,382,262,154,201,303,0
+Route_1: 0,65,273,81,369,333,103,111,351,3,0
+Route_2: 0,202,359,384,138,227,259,0
+Route_3: 0,299,275,68,195,41,297,25,0
+Profit: 10297
+Time: 10800.101999998093
+
+Status: 9
+BestBound: 15868
+BestBoundRoot: 15868
+BestBoundRootBeforeCuts: 20158
+FinalGap: 0.5410313683597164
+Arguments: exact GRB 180 60 2

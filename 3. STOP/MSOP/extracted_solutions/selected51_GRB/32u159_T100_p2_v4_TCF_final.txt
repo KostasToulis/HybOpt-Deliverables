@@ -1,0 +1,17 @@
+Dataset_name: 32u159_T100_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,5,9,16,0
+Route_1: 0,125,113,123,124,0
+Route_2: 0,132,135,158,0
+Route_3: 0,140,0
+Profit: 3978
+Time: 10800.025000095367
+
+Status: 9
+Nodes: 7605
+BestBound: 6571
+BestBoundRoot: 6992
+BestBoundRootBeforeCuts: 8037
+FinalGap: 0.6518350930115636
+Arguments: exact GRB 180 100 2

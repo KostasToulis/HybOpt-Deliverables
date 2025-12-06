@@ -1,0 +1,17 @@
+Dataset_name: 53pr264_T80_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,40,37,61,24,32,26,18,73,100,110,118,0
+Route_1: 0,129,90,82,81,10,9,14,21,0
+Route_2: 0,128,127,121,49,52,44,43,41,0
+Profit: 131
+Time: 311.6289509
+
+Status: Feasible
+BestBound: 263
+BestRestart: 0
+RestartTime: 16.0582986
+Iterations: 10007
+IterationsTillBest: 6
+TimeOfMath: 15.066
+Arguments: mls 80 1

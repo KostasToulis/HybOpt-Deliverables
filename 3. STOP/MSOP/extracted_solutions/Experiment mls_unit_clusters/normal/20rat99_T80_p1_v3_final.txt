@@ -1,0 +1,17 @@
+Dataset_name: 20rat99_T80_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,6,3,0
+Route_1: 0,18,1,0
+Route_2: 0,21,20,0
+Profit: 30
+Time: 66.9962336
+
+Status: Feasible
+BestBound: 98
+BestRestart: 0
+RestartTime: 3.2739916
+Iterations: 10000
+IterationsTillBest: 0
+TimeOfMath: 3.041
+Arguments: mls 80 1

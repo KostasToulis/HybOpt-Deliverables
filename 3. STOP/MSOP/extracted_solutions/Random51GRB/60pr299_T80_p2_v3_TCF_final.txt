@@ -1,0 +1,15 @@
+Dataset_name: 60pr299_T80_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,1,7,13,15,98,79,78,6,0
+Route_1: 0,142,141,160,159,222,0
+Route_2: 0,146,153,213,214,290,287,212,157,156,3,0
+Profit: 5644
+Time: 10800.148000001907
+
+Status: 9
+BestBound: 12067
+BestBoundRoot: 12067
+BestBoundRootBeforeCuts: 15107
+FinalGap: 1.1380226789510985
+Arguments: exact GRB 180 80 2

@@ -1,0 +1,15 @@
+Dataset_name: 29pr144_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,27,19,18,13,42,67,37,21,0
+Route_1: 0,33,53,51,82,85,104,86,46,24,1,0
+Profit: 4339
+Time: 10800.011999845505
+
+Status: 9
+Nodes: 6495
+BestBound: 6072
+BestBoundRoot: 6533
+BestBoundRootBeforeCuts: 7242
+FinalGap: 0.3994007835906891
+Arguments: exact GRB 180 80 2

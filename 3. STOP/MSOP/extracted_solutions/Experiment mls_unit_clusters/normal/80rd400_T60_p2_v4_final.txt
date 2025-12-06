@@ -1,0 +1,18 @@
+Dataset_name: 80rd400_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,146,165,269,369,142,263,54,132,0
+Route_1: 0,107,280,4,138,384,0
+Route_2: 0,44,236,346,308,235,154,172,128,303,0
+Route_3: 0,8,14,117,63,71,34,205,319,299,55,0
+Profit: 10880
+Time: 426.8776678
+
+Status: Feasible
+BestBound: 20158
+BestRestart: 1
+RestartTime: 34.9272211
+Iterations: 23517
+IterationsTillBest: 13516
+TimeOfMath: 29.873
+Arguments: mls 60 2

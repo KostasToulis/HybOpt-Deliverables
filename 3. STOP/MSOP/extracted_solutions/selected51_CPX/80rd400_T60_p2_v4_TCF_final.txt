@@ -1,0 +1,17 @@
+Dataset_name: 80rd400_T60_p2_v4
+Vehicles: 4
+Routes
+Route_0: 0,38,335,201,235,200,255,0
+Route_1: 0,272,250,112,141,22,47,34,0
+Route_2: 0,281,0
+Route_3: 0,289,351,111,142,0
+Profit: 6100
+Time: 10800.3010275
+
+Status: Feasible
+Nodes: 1
+BestBound: 16420.70031913309
+BestBoundRoot: 16420.750940895457
+BestBoundRootBeforeCuts: 17676.208576968187
+FinalGap: 1.6919180851037576
+Arguments: exact CPX 180 60 2

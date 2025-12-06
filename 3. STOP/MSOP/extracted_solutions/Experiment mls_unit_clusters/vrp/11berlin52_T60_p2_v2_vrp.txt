@@ -1,0 +1,16 @@
+Dataset_name: 11berlin52_T60_p2_v2
+Vehicles: 7
+Routes
+Route_0: 0,2,16,17,21,0 (936)
+Route_1: 0,15,28,29,19,49,0 (1166)
+Route_2: 0,9,7,40,18,0 (1205)
+Route_3: 0,30,20,41,22,0 (1185)
+Route_4: 0,34,33,36,47,23,4,5,3,24,45,43,0 (1005)
+Route_5: 0,48,42,14,37,39,38,35,0 (1017)
+Route_6: 0,44,8,31,0 (1204)
+Profit: 0
+Time: 1800.0539688
+
+Total distance: 7718
+Unserved customers: 1 6  (2)
+Arguments: VRP LS 30 0 0

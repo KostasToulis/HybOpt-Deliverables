@@ -1,0 +1,15 @@
+Dataset_name: 26bier127_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,1,56,46,111,106,126,122,96,32,30,13,0
+Route_1: 0,76,125,81,68,108,84,103,91,88,99,0
+Profit: 120
+Time: 10800.016000032425
+
+Status: 9
+Nodes: 5472
+BestBound: 122
+BestBoundRoot: 123
+BestBoundRootBeforeCuts: 126
+FinalGap: 0.016666666666666666
+Arguments: exact GRB 180 80 1

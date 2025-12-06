@@ -1,0 +1,17 @@
+Dataset_name: 28pr136_T60_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,4,16,0
+Route_1: 0,7,31,0
+Route_2: 0,37,0
+Route_3: 0,41,0
+Profit: 32
+Time: 2728.12299990654
+
+Status: 2
+Nodes: 40682
+BestBound: 32
+BestBoundRoot: 53
+BestBoundRootBeforeCuts: 135
+FinalGap: 0
+Arguments: exact GRB 180 60 1

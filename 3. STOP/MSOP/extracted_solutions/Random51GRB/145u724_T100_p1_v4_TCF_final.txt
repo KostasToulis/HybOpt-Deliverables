@@ -1,0 +1,16 @@
+Dataset_name: 145u724_T100_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Route_3: 0,0
+Profit: 0
+Time: 10800.151000022888
+
+Status: 9
+BestBound: 723
+BestBoundRoot: 723
+BestBoundRootBeforeCuts: 723
+FinalGap: 1E+100
+Arguments: exact GRB 180 100 1

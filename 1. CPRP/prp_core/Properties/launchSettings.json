@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "prp_core": {
+      "commandName": "Project",
+      "commandLineArgs": "exact 5 basic true false true"
+    }
+  }
+}

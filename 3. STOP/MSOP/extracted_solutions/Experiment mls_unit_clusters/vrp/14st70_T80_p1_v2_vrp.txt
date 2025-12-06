@@ -1,0 +1,17 @@
+Dataset_name: 14st70_T80_p1_v2
+Vehicles: 8
+Routes
+Route_0: 0,17,41,52,0 (126)
+Route_1: 0,22,4,11,51,9,46,0 (123)
+Route_2: 0,40,5,65,0 (126)
+Route_3: 0,37,21,56,23,14,34,69,28,35,0 (126)
+Route_4: 0,12,30,68,58,62,3,0 (126)
+Route_5: 0,10,64,15,0 (123)
+Route_6: 0,50,66,55,0 (123)
+Route_7: 0,36,49,59,32,57,0 (123)
+Profit: 0
+Time: 1799.6050279
+
+Total distance: 996
+Unserved customers: 18 47 53 61 42  (5)
+Arguments: VRP LS 30 0 0

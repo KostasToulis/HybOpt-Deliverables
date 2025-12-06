@@ -1,0 +1,13 @@
+Dataset_name: 31pr152_T100_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,15,31,37,27,38,23,24,25,12,13,14,0 (12748)
+Route_1: 0,33,36,32,30,29,28,26,11,5,4,3,2,1,0 (12844)
+Route_2: 0,35,46,34,0 (12671)
+Route_3: 0,47,48,0 (12754)
+Profit: 0
+Time: 1799.6985746
+
+Total distance: 51017
+Unserved customers: 49 50 72 73 74 75 10 21 22  (9)
+Arguments: VRP LS 30 0 0

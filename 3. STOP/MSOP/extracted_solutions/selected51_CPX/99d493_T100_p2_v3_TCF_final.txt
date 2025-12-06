@@ -1,0 +1,16 @@
+Dataset_name: 99d493_T100_p2_v3
+Vehicles: 3
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Profit: 0
+Time: 10800.4205386
+
+Status: Feasible
+Nodes: 0
+BestBound: 22177
+BestBoundRoot: 10058
+BestBoundRootBeforeCuts: 10058
+FinalGap: 221770000000000
+Arguments: exact CPX 180 100 2

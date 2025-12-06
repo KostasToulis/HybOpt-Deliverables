@@ -1,0 +1,15 @@
+Dataset_name: 21eil101_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,26,4,59,7,81,9,29,0
+Route_1: 0,67,23,54,3,49,0
+Profit: 4197
+Time: 10800.0232522
+
+Status: Feasible
+Nodes: 25319
+BestBound: 4727.516308317496
+BestBoundRoot: 4830.229045662028
+BestBoundRootBeforeCuts: 4947.210180094305
+FinalGap: 0.1264036950958978
+Arguments: exact CPX 180 80 2

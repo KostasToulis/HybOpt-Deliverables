@@ -1,0 +1,17 @@
+Dataset_name: 56a280_T60_p1_v4
+Vehicles: 4
+Routes
+Route_0: 0,1,245,241,0
+Route_1: 0,4,9,10,0
+Route_2: 0,250,248,2,0
+Route_3: 0,259,273,276,0
+Profit: 51
+Time: 10800.085000038147
+
+Status: 9
+Nodes: 711
+BestBound: 109
+BestBoundRoot: 114
+BestBoundRootBeforeCuts: 279
+FinalGap: 1.1372549019607843
+Arguments: exact GRB 180 60 1

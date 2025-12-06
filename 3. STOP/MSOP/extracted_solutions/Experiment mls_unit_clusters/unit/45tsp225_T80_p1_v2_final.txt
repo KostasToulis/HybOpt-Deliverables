@@ -1,0 +1,16 @@
+Dataset_name: 45tsp225_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,4,6,7,40,39,38,31,30,205,201,29,28,34,32,33,25,24,207,23,12,11,10,9,8,0
+Route_1: 0,197,196,194,193,217,192,195,191,190,204,189,224,46,1,58,57,56,55,54,51,49,50,206,48,132,198,223,47,44,45,43,42,5,3,2,0
+Profit: 59
+Time: 144.0760477
+
+Status: Feasible
+BestBound: 224
+BestRestart: 11
+RestartTime: 9.4984114
+Iterations: 18709
+IterationsTillBest: 8708
+TimeOfMath: 4.08
+Arguments: mls 80 1

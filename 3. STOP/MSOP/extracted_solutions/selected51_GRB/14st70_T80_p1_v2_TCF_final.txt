@@ -1,0 +1,15 @@
+Dataset_name: 14st70_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,52,11,59,15,0
+Route_1: 0,68,56,22,37,0
+Profit: 43
+Time: 10800.045000076294
+
+Status: 9
+Nodes: 151714
+BestBound: 56
+BestBoundRoot: 63
+BestBoundRootBeforeCuts: 69
+FinalGap: 0.3023255813953488
+Arguments: exact GRB 180 80 1

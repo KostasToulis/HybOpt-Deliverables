@@ -1,0 +1,17 @@
+Dataset_name: 25pr124_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,24,23,37,36,54,55,56,57,59,60,58,30,31,5,4,3,2,1,0
+Route_1: 0,61,65,64,67,63,62,32,33,29,0
+Route_2: 0,7,21,22,20,19,18,17,44,43,42,41,40,39,38,25,35,34,28,27,26,6,0
+Profit: 48
+Time: 104.9241885
+
+Status: Feasible
+BestBound: 123
+BestRestart: 0
+RestartTime: 4.7940771
+Iterations: 10257
+IterationsTillBest: 256
+TimeOfMath: 3.567
+Arguments: mls 100 1

@@ -1,0 +1,16 @@
+Dataset_name: 20rat99_T80_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,6,0
+Route_1: 0,10,9,0
+Route_2: 0,20,21,2,0
+Profit: 30
+Time: 10800.3059829
+
+Status: Feasible
+Nodes: 64742
+BestBound: 46.47185625009208
+BestBoundRoot: 63.60589067679248
+BestBoundRootBeforeCuts: 70.34871327362158
+FinalGap: 0.5490618750012392
+Arguments: exact CPX 180 80 1

@@ -1,0 +1,16 @@
+Dataset_name: 14st70_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,34,56,21,22,0
+Route_1: 0,9,51,11,52,0
+Profit: 43
+Time: 19.0719099
+
+Status: Feasible
+BestBound: 69
+BestRestart: 0
+RestartTime: 1.0179648
+Iterations: 10004
+IterationsTillBest: 3
+TimeOfMath: 0.839
+Arguments: mls 80 1

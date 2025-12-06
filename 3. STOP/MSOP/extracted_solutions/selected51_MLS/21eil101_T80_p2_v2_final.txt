@@ -1,0 +1,16 @@
+Dataset_name: 21eil101_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,59,83,92,86,1,27,0
+Route_1: 0,69,29,2,23,54,75,0
+Profit: 4246
+Time: 418.602803
+
+Status: Feasible
+BestBound: 5050
+BestRestart: 0
+RestartTime: 18.1623709
+Iterations: 10155
+IterationsTillBest: 154
+TimeOfMath: 17.908
+Arguments: mls 80 2

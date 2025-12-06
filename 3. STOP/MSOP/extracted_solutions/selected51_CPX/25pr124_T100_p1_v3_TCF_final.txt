@@ -1,0 +1,16 @@
+Dataset_name: 25pr124_T100_p1_v3
+Vehicles: 3
+Routes
+Route_0: 0,0
+Route_1: 0,0
+Route_2: 0,0
+Profit: 0
+Time: 10800.0292852
+
+Status: Feasible
+Nodes: 20294
+BestBound: 89.82103376841445
+BestBoundRoot: 123
+BestBoundRootBeforeCuts: 123
+FinalGap: 1.1907569211779359
+Arguments: exact CPX 180 100 1

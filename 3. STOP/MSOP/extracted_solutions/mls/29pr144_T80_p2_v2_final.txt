@@ -1,0 +1,16 @@
+Dataset_name: 29pr144_T80_p2_v2
+Vehicles: 2
+Routes
+Route_0: 0,36,61,42,13,19,18,21,0
+Route_1: 0,1,35,45,86,107,84,83,53,52,33,27,0
+Profit: 4339
+Time: 180.3844717
+
+Status: Feasible
+BestBound: 7242
+BestRestart: 0
+RestartTime: 9.4498962
+Iterations: 10110
+IterationsTillBest: 109
+TimeOfMath: 9.118
+Arguments: mls 80 2

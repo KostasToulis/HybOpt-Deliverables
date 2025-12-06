@@ -1,0 +1,15 @@
+Dataset_name: 30kroB150_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,26,106,79,1,148,74,112,109,0
+Route_1: 0,39,3,142,13,95,47,65,36,60,131,52,0
+Profit: 107
+Time: 10800.0341582
+
+Status: Feasible
+Nodes: 8473
+BestBound: 141.65421153131174
+BestBoundRoot: 146.23446605937306
+BestBoundRootBeforeCuts: 147.852048905015
+FinalGap: 0.32387113580634913
+Arguments: exact CPX 180 80 1

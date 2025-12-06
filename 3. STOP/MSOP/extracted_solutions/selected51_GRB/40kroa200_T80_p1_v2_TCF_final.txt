@@ -1,0 +1,15 @@
+Dataset_name: 40kroa200_T80_p1_v2
+Vehicles: 2
+Routes
+Route_0: 0,92,98,35,179,96,164,165,43,62,15,60,171,120,52,0
+Route_1: 0,144,66,119,156,106,129,71,49,167,1,157,192,131,0
+Profit: 153
+Time: 10800.026000022888
+
+Status: 9
+Nodes: 1233
+BestBound: 185
+BestBoundRoot: 191
+BestBoundRootBeforeCuts: 199
+FinalGap: 0.20915032679738563
+Arguments: exact GRB 180 80 1

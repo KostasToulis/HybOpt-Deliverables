@@ -1,0 +1,10 @@
+Dataset_name: 40d198_T60_p1_v2
+Vehicles: 1
+Routes
+Route_0: 0,2,3,4,5,6,1,0 (2650)
+Profit: 0
+Time: 0.0576123
+
+Total distance: 2650
+Unserved customers:  (0)
+Arguments: VRP LS 30 0 0
