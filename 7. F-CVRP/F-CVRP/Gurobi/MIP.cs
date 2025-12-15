@@ -225,7 +225,7 @@ namespace F_CVRP.Gurobi
                 }
                 else
                 {
-                    Console.WriteLine("No optimal solution found.");
+                    //Console.WriteLine("No optimal solution found.");
                 }
 
                 // Dispose of model and environment
@@ -237,192 +237,6 @@ namespace F_CVRP.Gurobi
             catch (GRBException e)
             {
                 Console.WriteLine("Error code: " + e.ErrorCode + ". " + e.Message);
-            }
-        }
-
-        public void RemInsSubproblem(Model m, Solution sol, int maxRem)
-        {
-            
-            int n = m.numNodes + 1;
-            int k = m.vehicles;
-
-            try
-            {
-                GRBEnv env = new GRBEnv(true);
-                env.Set("LogFile", "mip2.log");
-                env.Start();
-                GRBModel model = new GRBModel(env);
-
-                //SetupFCVRPModel(RISubproblem, m);
-
-                // Model params
-
-                model.ModelName = "RISubproblem" + DateTime.Now.ToString("HH:mm:ss tt");
-                model.Parameters.OutputFlag = 0; // Gurobi logging
-                model.Parameters.Threads = 1; // usually we use 1 thread when solving MIPs for reasons of direct comparisons
-                model.Parameters.TimeLimit = 1 * 60; // termination condition in seconds
-
-                // Preprocessing
-
-                bool[] existsInSol = new bool[n];
-                existsInSol[0] = true;
-
-                float[] remCost = new float[n];
-                remCost[0] = 0;
-
-                foreach (Route rt in sol.routes)
-                {
-                    for (int i = 1; i < rt.sequenceOfNodes.Count - 1; i++)
-                    {
-                        existsInSol[rt.sequenceOfNodes[i].id] = true;
-                        remCost[rt.sequenceOfNodes[i].id] = m.costMatrix[rt.sequenceOfNodes[i - 1].id][rt.sequenceOfNodes[i].id] + m.costMatrix[rt.sequenceOfNodes[i].id][rt.sequenceOfNodes[i + 1].id];
-                    }
-                }
-
-                GRBVar[] add = new GRBVar[n];
-                GRBVar[] rem = new GRBVar[n];
-
-
-                for (int i = 1; i < n; i++)
-                {
-                    if (existsInSol[m.nodes[i].id])
-                    {
-                        rem[m.nodes[i].id] = model.AddVar(0.0, 1.0, remCost[m.nodes[i].id], GRB.BINARY, $"rem_{i}");
-                        add[m.nodes[i].id] = model.AddVar(0.0, 0.0, 0.0, GRB.BINARY, $"add_{i}");
-                    }
-                    else
-                    {
-                        rem[m.nodes[i].id] = model.AddVar(0.0, 0.0, remCost[m.nodes[i].id], GRB.BINARY, $"rem_{i}");
-                        add[m.nodes[i].id] = model.AddVar(0.0, 1.0, 0.0, GRB.BINARY, $"add_{i}");
-                    }
-                    
-                }
-
-
-                // Limit removals
-                GRBLinExpr removeExpr = new GRBLinExpr();
-                for (int i = 1; i < n; i++)
-                {
-                    removeExpr.AddTerm(1.0, rem[i]);
-                }
-                model.AddConstr(removeExpr <= maxRem, "max_removals");
-                model.AddConstr(removeExpr >= (int)maxRem / 2, "min_removals");
-
-
-                // Insertions are equal to removals
-                GRBLinExpr insertExpr = new GRBLinExpr();
-                for (int i = 1; i < n; i++)
-                {
-                    insertExpr.AddTerm(1.0, add[i]);
-                }
-                model.AddConstr(removeExpr == insertExpr, "equal_removal_insertion");
-
-
-                //// Update customer selection
-                //for (int i = 1; i < n; i++)
-                //{
-                //    GRBLinExpr selectionUpdate = new GRBLinExpr();
-                //    selectionUpdate.AddTerm(1.0, y[i]);  // Initial selection
-                //    selectionUpdate.AddTerm(-1.0, r[i]); // Remove customer
-                //    selectionUpdate.AddTerm(1.0, z[i]);  // Insert new customer
-
-                //    model.AddConstr(selectionUpdate == y_new[i], $"updated_selection_{i}");
-                //}
-
-
-                // Ensure equal distributions of removed and inserted families
-                for (int l = 0; l < m.numFam; l++)  
-                {
-                    GRBLinExpr removedFamilyMembers = new GRBLinExpr();
-                    GRBLinExpr insertedFamilyMembers = new GRBLinExpr();
-
-                    for (int i = 1; i < n; i++)
-                    {
-                        if (m.nodes[i].family.id == l)  // If customer i belongs to family l
-                        {
-                            removedFamilyMembers.AddTerm(1.0, rem[i]);
-                            insertedFamilyMembers.AddTerm(1.0, add[i]);
-                        }
-                    }
-
-                    model.AddConstr(removedFamilyMembers == insertedFamilyMembers, $"family_balance_{l}");
-                }
-
-
-                // Disjoint insert and delete sets constraint
-                for (int i = 1; i < n; i++)  
-                {
-                    model.AddConstr(rem[i] + add[i] <= 1, $"disjoint_removal_insertion_{i}");
-                }
-
-
-                // Objective: Maximize removed travel cost
-                GRBLinExpr modifiedObjective = new GRBLinExpr();
-
-                for (int i = 1; i < n; i++)
-                {
-                    modifiedObjective.AddTerm(remCost[i], rem[i]);
-                }
-
-                model.SetObjective(modifiedObjective, GRB.MAXIMIZE);
-
-
-                model.Optimize();
-                bool silence = false;
-
-                // Check and display the solution
-                if (model.Status == GRB.Status.OPTIMAL || model.Status == GRB.Status.TIME_LIMIT || model.Status == GRB.Status.SUBOPTIMAL)
-                {
-                    //Console.WriteLine("Optimal solution found:");
-
-                    //Console.WriteLine("Selected Routes:");
-                    //for (int v = 0; v < k; v++)
-                    //{
-                    //    for (int i = 0; i < n; i++)
-                    //    {
-                    //        for (int j = 0; j < n; j++)
-                    //        {
-                    //            if (x[v, i, j].X > 0.5)
-                    //            {
-                    //                Console.WriteLine($"Vehicle {v} travels from {i} to {j}");
-                    //            }
-                    //        }
-                    //    }
-                    //}
-                    //Console.WriteLine($"Total Cost: {model.ObjVal}");
-
-                    List<int> removedCustomers = new List<int>();
-                    List<int> insertedCustomers = new List<int>();
-
-                    for (int i = 1; i < n; i++) // Exclude depot
-                    {
-                        if (rem[i].X > 0.5)  // Customer was removed
-                        {
-                            removedCustomers.Add(i);
-                        }
-                        if (add[i].X > 0.5)  // Customer was inserted
-                        {
-                            insertedCustomers.Add(i);
-                        }
-                    }
-
-                    Console.WriteLine($"Removed Customers: {string.Join(", ", removedCustomers)}");
-                    Console.WriteLine($"Inserted Customers: {string.Join(", ", insertedCustomers)}");
-                }
-                else
-                {
-                    Console.WriteLine("No optimal solution found.");
-                }
-
-                // Dispose of model and environment
-                model.Dispose();
-                env.Dispose();
-            
-
-            }
-            catch
-            {
-
             }
         }
 
@@ -483,7 +297,7 @@ namespace F_CVRP.Gurobi
                         //float removeCost = (float)((m.costMatrix[prev][id] + m.costMatrix[id][next]) * Math.Log(1 + beta * rt.sequenceOfNodes[i].timesRemoved));
 
 
-                        for (int j = 1; j < n; j++)
+                        for (int j = 1; j < n-1; j++)
                         {                           
 
                             if (existsInSol[j])
@@ -516,7 +330,7 @@ namespace F_CVRP.Gurobi
                         {
                             int id = rt.sequenceOfNodes[i].id;
 
-                            for (int j = 1; j < n; j++)  
+                            for (int j = 1; j < n-1; j++)  
                             {
                                 if (!existsInSol[j])  
                                 {
@@ -540,9 +354,9 @@ namespace F_CVRP.Gurobi
                     GRBLinExpr removedFromFamily = new GRBLinExpr();
                     GRBLinExpr insertedIntoFamily = new GRBLinExpr();
 
-                    for (int i = 1; i < n; i++)  // Iterate over existing solution customers
+                    for (int i = 1; i < n-1; i++)  // Iterate over existing solution customers
                     {
-                        for (int j = 1; j < n; j++)  // Iterate over potential insertions
+                        for (int j = 1; j < n-1; j++)  // Iterate over potential insertions
                         {
                             if (m.nodes[i].family.id == l && existsInSol[i])
                             {
@@ -563,9 +377,9 @@ namespace F_CVRP.Gurobi
                 // Constraint: Set substitution range
 
                 GRBLinExpr removeExpr = new GRBLinExpr();
-                for (int i = 1; i < n; i++)
+                for (int i = 1; i < n-1; i++)
                 {
-                    for (int j = 1; j < n; j++)
+                    for (int j = 1; j < n-1; j++)
                     {
 
                         if (existsInSol[i])
@@ -583,10 +397,10 @@ namespace F_CVRP.Gurobi
 
                 // Constaint: Each customer may be removed at most once
 
-                for (int i = 1; i < n; i++)
+                for (int i = 1; i < n-1; i++)
                 {
                     GRBLinExpr removedSum = new GRBLinExpr();
-                    for (int j = 1; j < n; j++)
+                    for (int j = 1; j < n-1; j++)
                     {
                         if (existsInSol[i] && !existsInSol[j])
                         {
@@ -598,10 +412,10 @@ namespace F_CVRP.Gurobi
 
                 // Constaint: Each customer may be added at most once
 
-                for (int j = 1; j < n; j++)
+                for (int j = 1; j < n-1; j++)
                 {
                     GRBLinExpr addedSum = new GRBLinExpr();
-                    for (int i = 1; i < n; i++)
+                    for (int i = 1; i < n-1; i++)
                     {
                         if (existsInSol[i] && !existsInSol[j])
                         {
@@ -624,9 +438,9 @@ namespace F_CVRP.Gurobi
 
                     List<(int, int)> substitutions = new List<(int, int)>();
 
-                    for (int i = 1; i < n; i++) 
+                    for (int i = 1; i < n-1; i++) 
                     {
-                        for (int j = 1; j < n; j++)
+                        for (int j = 1; j < n-1; j++)
                         {
                             if (existsInSol[i] && !existsInSol[j] && sub[i,j].X > 0.5)
                             {
@@ -651,9 +465,9 @@ namespace F_CVRP.Gurobi
 
                 
             }
-            catch
+            catch (Exception e)
             {
-
+                Console.WriteLine(e.Message);
             }
         }
 
@@ -786,7 +600,7 @@ namespace F_CVRP.Gurobi
                 
                 // Min Cost
 
-                for (int i = 1; i < n; i++)
+                for (int i = 1; i < n-1; i++)
                 {
                     for (int v = 0; v < k; v++)
                     {
@@ -813,7 +627,7 @@ namespace F_CVRP.Gurobi
 
                 // Constaint: Each customer may be added at most once
 
-                for (int i = 1; i < n; i++)
+                for (int i = 1; i < n-1; i++)
                 {
                     if (!existsInSol[i])
                     {
@@ -835,7 +649,7 @@ namespace F_CVRP.Gurobi
                     GRBLinExpr demandChange = new GRBLinExpr();
                     Route rt = partialSol.routes[v];
 
-                    for (int i = 1; i < n; i++)
+                    for (int i = 1; i < n-1; i++)
                     {
                         if (!existsInSol[i])
                         {
@@ -856,7 +670,7 @@ namespace F_CVRP.Gurobi
 
                     GRBLinExpr insertedIntoFamily = new GRBLinExpr();
 
-                    for (int i = 1; i < n; i++)
+                    for (int i = 1; i < n-1; i++)
                     {
                         if (!existsInSol[i] && m.nodes[i].family.id == l)
                         {
@@ -906,7 +720,7 @@ namespace F_CVRP.Gurobi
                     
                     for (int v = 0; v < k; v++)
                     {
-                        for (int i = 1; i < n; i++)
+                        for (int i = 1; i < n-1; i++)
                         {
                             if (!existsInSol[i] && add[i,v].X > 0.5)
                             {
@@ -933,7 +747,7 @@ namespace F_CVRP.Gurobi
                 }
                 else
                 {
-                    Console.WriteLine("No optimal solution found.");
+                    //Console.WriteLine("No optimal solution found.");
                 }
 
 
@@ -942,10 +756,11 @@ namespace F_CVRP.Gurobi
 
 
             }
-            catch
+            catch (Exception e)
             {
-                m.ReportSolution(partialSol);
+                Console.WriteLine(e.Message);
             }
+            
         }
 
 
